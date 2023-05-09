@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 400px;
+}
+
+.suggestionContainer {
+ overflow-y: auto;
+ max-height: 400px;
+ min-width: 400px;
+}
+
+.suggestion {
+ color: black;
+ padding: 4px;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.162);
+ cursor: pointer;
+}
+
+.highlight { 
+  color: rgb(216, 0, 0) ;
+}
+
+.loading{
+  display: flex;
+  justify-content: center;
+}
+
+.textArea {
+  padding: 7px;
+  border-radius: 2px;
+  border: 1px solid #0000005e;
+}
